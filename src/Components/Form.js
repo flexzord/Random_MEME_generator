@@ -1,7 +1,5 @@
 import React from "react"
 import "./Form.css"
-import Textarea from "./Textarea";
-import Draggable, { DraggableCore } from "react-draggable"
 
 export default function Form(){
 
@@ -56,20 +54,14 @@ export default function Form(){
             placeholder="bottom text" 
             onChange={handleChange}>
         </input>
-        <button onClick={handleClick} className="button">generate new meme</button>
+        <button onClick={handleClick} className="button">generate randome meme</button>
         <div className="meme">
             <img className="meme" src={randomMeme.randomImg} />
             <h2 className="meme-top-text">{formData.topText}</h2>
             <h2 className="meme-bottom-text">{formData.bottomText}</h2>
         </div>
+
        
-        {/* <Draggable>
-        <textarea value={formData.topText} className="top-text" readOnly />
-        </Draggable>
-        <Draggable>
-        <textarea value={formData.bottomText} className="bottom-text" readOnly />
-        </Draggable> */}
-        
         </div>
         
     )

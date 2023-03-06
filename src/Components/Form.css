@@ -24,7 +24,7 @@
 }
 .meme{
     grid-column: 1/-1;
-    width: 100%;
+    max-width: 100%;
     margin: auto;
     height: 500px;
     position: relative;
