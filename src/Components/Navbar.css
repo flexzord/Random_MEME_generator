@@ -1,0 +1,14 @@
+.nav{
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: aliceblue;
+  
+}
+.nav>img{
+    height: 6vh;
+    width: 8vh;
+    padding: 1.5rem;
+}
